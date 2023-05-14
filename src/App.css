@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.active_slide {
+  background-color: blue;
+}
+
+.content_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.slide_container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+}
+
+/* li {
+  padding-left: 50px;
+} */
+
+.ul_slides_container {
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+ol {
+  padding-left: 50px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
